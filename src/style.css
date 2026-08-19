@@ -1,31 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
-
-.menu-fixed {
-    position: sticky;
-    top: 20px;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-.menu-fixed {
-    position: sticky;
-    top: 20px;
-}
-
-input{
-    width:250px;
-    height:35px;
-    border:none;
-    border-radius:8px;
-    padding:0 10px;
-    background:white;
-    outline:none;
-}
-
-[19.08.2026 12:16] Махлиё Азимова: /* ==========================================================================
+/* ==========================================================================
    SERGO'SHT — премиальная тема
    Палитра: угольно-чёрный + топлёный крем + фирменный ember-red + латунный акцент
    Дисплей: Fraunces (тёплая контрастная антиква)
@@ -148,7 +121,8 @@ h1.title::after {
 }
 
 .navbar-end .buttons { gap: 10px; }
-[19.08.2026 12:16] Махлиё Азимова: .navbar .button {
+
+.navbar .button {
   font-family: var(--font-body);
   font-weight: 700 !important;
   font-size: 14px;
@@ -278,7 +252,8 @@ h1.title::after {
   font-weight: 600 !important;
   font-size: 20px !important;
 }
-[19.08.2026 12:16] Махлиё Азимова: .modal-card-body { padding: 24px !important; background: #fff; }
+
+.modal-card-body { padding: 24px !important; background: #fff; }
 
 .modal-card-foot {
   background: var(--cream) !important;
@@ -383,8 +358,6 @@ h1.title::after {
 
 .review-ratings__label { font-family: var(--font-body); font-weight: 600; color: #8A7C6E; }
 
-
-
 .menu-fixed {
   background: #fff;
   border-radius: var(--radius-m);
@@ -414,7 +387,8 @@ h1.title::after {
   color: var(--ember);
   padding-left: 16px;
 }
-[19.08.2026 12:16] Махлиё Азимова: .swiper { border-radius: var(--radius-l); overflow: hidden; box-shadow: var(--shadow-lift); }
+
+.swiper { border-radius: var(--radius-l); overflow: hidden; box-shadow: var(--shadow-lift); }
 
 .swiper-button-next, .swiper-button-prev {
   color: #fff !important;
@@ -427,16 +401,11 @@ h1.title::after {
 .swiper-button-next:hover, .swiper-button-prev:hover { background: var(--ember); }
 .swiper-button-next::after, .swiper-button-prev::after { font-size: 16px !important; font-weight: 900; }
 
-
-
 .Toastify__toast {
   border-radius: var(--radius-s) !important;
   font-family: var(--font-body) !important;
   font-weight: 600;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
 
@@ -453,9 +422,9 @@ h1.title::after {
   }
   .navbar-brand .navbar-item img { max-height: 34px; }
 
- 
+
   .navbar-menu {
-    display: flex !important; 
+    display: flex !important;
     position: fixed;
     left: 0; right: 0; bottom: 0;
     z-index: 200;
